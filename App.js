@@ -6,17 +6,17 @@ export default function App() {
   return (
     <View style={styles.container}>
 
-      <View style={styles.button}>
+      <View style={styles.Botao}>
         <Icon name="person" size={40}></Icon>
         <Text>Perfil</Text>
       </View>
 
-      <View style={styles.button}>
+      <View style={styles.Botao}>
         <Icon name="camera-alt" size={40}></Icon>
         <Text>Câmera</Text>
       </View>
 
-      <View style={styles.button}>
+      <View style={styles.Botao}>
         <Icon name="exit-to-app" size={40}></Icon>
         <Text>Sair</Text>
       </View>
@@ -33,16 +33,16 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     padding: 40,
   },
-  button: {
+  Botao: {
     flex: 1,
     backgroundColor: '#fafafa',
     alignItems: 'center',
     justifyContent: 'center',
     flexDirection: 'column',
 
-    marginTop: 40,
-    width: '100%',
-    height: '100%',
+    margin: 20,
+    width: 300,
+    height: 200,
     borderRadius: 8,
 
     elevation: 5,
